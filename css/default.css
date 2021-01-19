@@ -1,0 +1,250 @@
+h1, h2, h3, h4, strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+caption {
+    caption-side: top;
+}
+#content h2[id], #content h3[id], #content h4[id] {
+    cursor: pointer;
+}
+#content h2[id]:hover:after, #content h3[id]:hover:after, #content h4[id]:hover:after {
+    content: " \00B6";
+}
+h1 {
+    font-size: 2.25rem;
+    margin: 0 0 20px 0;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.6rem;
+}
+h4 {
+    font-size: 1.4rem;
+}
+blockquote {
+    padding: 10px;
+    background-color: #FFF8DC;
+    border-left: 2px solid #ffeb8e;
+}
+blockquote p {
+    margin-bottom: 0;
+}
+
+.ref {
+    color: #0277BD;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+code {
+    padding: .2em;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px;    
+}
+pre>code {
+    background: none; 
+    padding: 0;
+    border-radius: unset;
+}
+#content em {
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 2px 5px;
+    margin: 0;
+    background-color: rgba(0,0,0,0.04);
+    color: #c7254e;
+    border-radius: 3px;
+}
+#content a em {
+    color: #007bff;
+}
+#content a:hover em {
+    color: #0056b3;
+}
+#content h2, #content h3, #content h4 {
+    padding: 15px 0;
+}
+a:hover {
+    text-decoration: none;
+}
+#content li.active a {
+    font-weight: bold;
+}
+#content .doc-links, #content .linq-links, #content .usecase-links {
+    margin-top: 2em;
+    height: 1em;
+}
+#topnav {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 1px rgba(0,0,0,0.25);
+    padding: .45rem 1rem;
+}
+.navbar-brand {
+    padding-bottom: 0;
+}
+#body {
+    position: relative;
+    z-index: 1;
+    padding: 60px 60px 30px 0;
+    overflow-x: hidden;
+}
+#scroll-screen {
+    background:#fff;
+    opacity:.5;
+    z-index:2;
+    position:fixed;
+    height:64px;
+    width:100%;
+    left:325px;
+}
+#sidebar {
+    position: fixed;
+    z-index: 10;
+    top: 63px;
+    left: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+#sidebar .inner {
+    width: 325px;
+    padding: 10px 0 0 10px;
+}
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    line-height: 1.5em;
+    padding-left: 0;
+}
+#sidebar li {
+    padding: .20em 0 .25em .8em;
+    border-left: .2em solid #fff;
+    margin-top: .1em;
+}
+#sidebar li.active {
+    background: #f8f8f8;
+    border-left: .2em solid #3371e3;   
+}
+#sidebar li h5 {
+    margin: 0.6em 0;
+    font-size: 18px;
+}
+
+#content {
+    position: relative;
+    padding: 2.2em 0;
+    max-width: 910px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+#content img {
+    max-width: 890px !important;
+}
+
+pre.highlight {
+    background: #f8f8f8;
+    padding: 10px;
+}
+
+#edit-github {
+    font-size: .85rem;
+    z-index: 3;
+    position: absolute;
+    right: 1.5em;
+    top: 1em;
+}
+
+#sidebar-toggle {
+    display: none;
+}
+
+.tpl th {
+    text-align: center;
+}
+.tpl-desc {
+    font-size: 14px;
+}
+
+#sidebar::-webkit-scrollbar
+{
+    width:10px; 
+    height:15px;
+}
+#sidebar::-webkit-scrollbar-thumb
+{
+    background-color: #f8f8f8;
+}
+.youtube-play {
+    background: no-repeat url(/images/youtube-play.png);
+    display: block;
+    position: absolute;
+    opacity: 0.8;
+}
+.youtube-play:hover {
+    background: no-repeat url(/images/youtube-play-hover.png);
+    opacity: 1;
+    background-color: rgba(255,255,255,.1);
+    cursor: pointer;
+}
+
+
+@media (max-width: 1580px) {
+    #content {
+        margin-left: 325px;
+    }
+}
+@media (max-width: 1024px) {
+    #sidebar .inner {
+        width: 225px;
+    }
+    #content {
+        margin-left: 225px;
+    }
+    #scroll-screen {
+        left: 250px;
+    }
+    #content img {
+        max-width: 650px !important;
+    }
+}
+@media (max-width: 768px) {
+    #topnav {
+        background: #fff;
+        position: absolute;
+    }
+    #sidebar, #scroll-screen, #edit-github {
+        display: none;
+    }
+    #body { 
+        padding-right: 0; 
+    }
+    #content {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #content img {
+        max-width: 450px !important;
+    }
+    #sidebar .inner {
+        background: #fff;
+        width: 325px;
+        padding: 10px 0 0 10px;
+    }
+    #sidebar-toggle {
+        display: block;
+    }
+}
+@media (max-width: 414px) {
+    #content img { max-width: 414px !important; }
+}
+@media (max-width: 375px) {
+    #content img { max-width: 375px !important; }
+}

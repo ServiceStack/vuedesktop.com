@@ -1,1 +1,44 @@
-theme: jekyll-theme-cayman
+# ----
+# Site
+
+title: Vue Desktop
+description: Vue Desktop Apps
+url: https://www.vuedesktop.com
+repository: ServiceStack/vuedesktop.com
+google_analytics_key: 
+
+collections:
+  documentation:
+    title: Documentation
+    output: true
+    permalink: /:slug.html
+gems:
+  - github-pages
+
+exclude:
+  - README.md
+  - LICENCE
+
+topics: []
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      collection: documentation
+    values:
+      priority: 999
+  -
+    scope:
+      collection: releases
+    values:
+      layout: default
+
+# -----
+# Build
+sass:
+  sass_dir: _scss
+  style: :compressed
