@@ -1,4 +1,6 @@
-### .NET 5.0 Vue Windows Desktop App Project Template.
+---
+title: .NET 5 Vue Windows Desktop App Project Template
+---
 
 The [Vue Desktop](https://github.com/NetCoreTemplates/vue-desktop) Project Template lets you create 
 .NET 5 Vue Single Page Apps that can also be packaged & deployed as 

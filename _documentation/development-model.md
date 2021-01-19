@@ -180,4 +180,4 @@ export class FetchData extends Vue {
 
 ----
 
-### [Native Win32 API Interop >](/gist-desktop-apps)
+### [Native Win32 API Interop >](/native-win32-interop)
