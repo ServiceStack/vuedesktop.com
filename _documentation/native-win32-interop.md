@@ -53,4 +53,4 @@ See [Win32 App](https://sharpscript.net/sharp-apps/win32) for more info & exampl
 
 ----
 
-### [Development Model >](/development-model)
+### [Publishing Desktop Apps >](/publishing-desktop-apps)

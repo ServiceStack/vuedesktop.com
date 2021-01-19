@@ -104,4 +104,4 @@ it will instead load the previously downloaded version, e.g:
 
 ----
 
-### [Native Win32 API Interop >](/gist-desktop-apps)
+### [Development Model >](/development-model)
