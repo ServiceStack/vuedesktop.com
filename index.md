@@ -1,5 +1,5 @@
 ---
-title: .NET 5 Vue Windows Desktop App Project Template
+title: C# Vue Desktop App Project Template
 ---
 
 The [Vue Desktop](https://github.com/NetCoreTemplates/vue-desktop) Project Template lets you create 
