@@ -61,18 +61,15 @@
 
 
 <script>
+var LOG = false;
 // Add .active class to active link + scroll into view
 function activateHash() {
-    if (location.pathname != "/")
-    {
-        var scrollItem = findMenuItem(location.pathname + location.hash)
-            || findMenuItem(location.pathname);
-
-        if (scrollItem) {
-            scrollItem.scrollIntoView({
-                block: "start"
-            });
-        }
+    var scrollItem = findMenuItem(location.pathname + location.hash);
+    if (LOG) console.log(location.pathname + location.hash, scrollItem)
+    if (scrollItem) {
+        scrollItem.scrollIntoView({
+            block: "start"
+        });
     }
 }
 activateHash();
