@@ -1,5 +1,3 @@
-#### Vue Desktop Apps
-
 - [Why Chromium Desktop Apps?](/#why-chromium-desktop-apps)
 - [Comparison with Blazor WASM](/#comparison-with-blazor-wasm)
 - [Disadvantages of Blazor](/#disadvantages-of-blazor)
