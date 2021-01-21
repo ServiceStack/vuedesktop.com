@@ -172,15 +172,21 @@ pre.highlight {
     font-size: 14px;
 }
 
-#sidebar::-webkit-scrollbar
+pre.language-ps1 {
+    background: #f8f8f8;
+    padding: 10px;
+}
+
+#sidebar::-webkit-scrollbar, pre::-webkit-scrollbar
 {
     width:10px; 
     height:15px;
 }
-#sidebar::-webkit-scrollbar-thumb
+#sidebar::-webkit-scrollbar-thumb, pre::-webkit-scrollbar-thumb
 {
     background-color: #f8f8f8;
 }
+
 .youtube-play {
     background: no-repeat url(/images/youtube-play.png);
     display: block;

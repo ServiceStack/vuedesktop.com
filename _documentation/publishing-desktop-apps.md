@@ -201,5 +201,7 @@ Remove-Item $(Join-Path $TempFile.Directory.FullName $TempFile.BaseName) -Recurs
 
 Here's an example of an app we have published to our servers:
 
-    powershell Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://files.sharpscript.net/VueDesktop/install.ps1'))
+```ps1
+powershell iwr files.sharpscript.net/VueDesktop/install.ps1 -useb | iex
+```
 
