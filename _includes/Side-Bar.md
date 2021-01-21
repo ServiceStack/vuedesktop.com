@@ -1,7 +1,7 @@
 - [Why Chromium Desktop Apps?](/#why-chromium-desktop-apps)
 - [Comparison with Blazor WASM](/#comparison-with-blazor-wasm)
 - [Disadvantages of Blazor](/#disadvantages-of-blazor)
-- [Blazor WASM Starting Project Template](#blazor-wasm-starting-project-template)
+- [Blazor WASM Starting Project Template](/#blazor-wasm-starting-project-template)
 - [Distributed App Size](/#distributed-app-size)
 - [Live Reload](/#live-reload)
 - [Reload Time](/#reload-time)
