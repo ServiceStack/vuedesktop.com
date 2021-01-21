@@ -14,7 +14,7 @@
     - [Launch from URLs](/gist-desktop-apps#launch-desktop-apps-from-urls)
     - [Deep Links](/gist-desktop-apps#deep-links)
     - [Customize Apps with Gists](/gist-desktop-apps#create-customized-apps-by-mixing-in-gists)
-    - [Launch from public or private GitHub Repos](/gist-desktop-apps#launch-from-public-or-private-github-repos)
+    - [Launch from public or private Repos](/gist-desktop-apps#launch-from-public-or-private-github-repos)
     - [Copy Directory](/gist-desktop-apps#copy-directory)
     - [Cross Platform Support](/gist-desktop-apps#cross-platform-support)
     - [Always uses latest version](/gist-desktop-apps#always-uses-latest-version)

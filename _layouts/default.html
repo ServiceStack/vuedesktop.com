@@ -62,17 +62,22 @@
 
 <script>
 // Add .active class to active link + scroll into view
-if (location.pathname != "/")
-{
-    var scrollItem = findMenuItem(location.pathname + location.hash)
-        || findMenuItem(location.pathname);
+function activateHash() {
+    if (location.pathname != "/")
+    {
+        var scrollItem = findMenuItem(location.pathname + location.hash)
+            || findMenuItem(location.pathname);
 
-    if (scrollItem) {
-        scrollItem.scrollIntoView({
-            block: "start"
-        });
+        if (scrollItem) {
+            scrollItem.scrollIntoView({
+                block: "start"
+            });
+        }
     }
 }
+activateHash();
+$(window).on('hashchange', activateHash);
+
 $("#sidebar-toggle").click(function(){
     $("#sidebar").fadeToggle()
 });
@@ -88,6 +93,7 @@ $("h2,h3,h4").click(function(){
 });
 
 function findMenuItem(pathInfo) {
+    $("#sidebar .active").removeClass('active');
     return $("#sidebar").find("a[href='" + pathInfo + "']")
         .parent().addClass('active')
         .parents().filter("div>ul>li")[0];
