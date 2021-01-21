@@ -160,9 +160,7 @@ see the [Desktop App Index](https://sharpscript.net/sharp-apps/app-index) for ot
 
 ### FREE!
 
-To remove friction & barriers to adoption all [app](https://docs.servicestack.net/netcore-windows-desktop) and 
-[x](https://docs.servicestack.net/dotnet-tool) dotnet tools used to run all [Sharp and Gist Desktop Apps](https://sharpscript.net/sharp-apps/) 
-utilize an unrestricted suite of [ServiceStack](https://servicestack.net) Software that can be developed & distributed free without a commercial license.
+All [app](https://docs.servicestack.net/netcore-windows-desktop) and [x](https://docs.servicestack.net/dotnet-tool) dotnet tools used to run all [Sharp and Gist Desktop Apps](https://sharpscript.net/sharp-apps/) utilize an unrestricted suite of [ServiceStack](https://servicestack.net) Software that can be developed & distributed for FREE!
 
 #### Alternative Modern Desktop Solutions
 
