@@ -2,7 +2,7 @@
 title: C# Vue Desktop App Project Template
 ---
 
-The [Vue Desktop](https://github.com/NetCoreTemplates/vue-desktop) Project Template lets you create 
+The [Vue Desktop Project Template](https://github.com/NetCoreTemplates/vue-desktop) lets you create 
 .NET 5 Vue Single Page Apps that can also be packaged & deployed as 
 [Gist Desktop Apps](https://sharpscript.net/sharp-apps/gist-desktop-apps) which is 
 ideal for quickly & effortlessly creating & deploying small to medium .NET Core Windows Desktop Apps 
