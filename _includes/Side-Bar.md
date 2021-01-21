@@ -1,4 +1,4 @@
-### Vue Desktop Apps
+#### Vue Desktop Apps
 
 - [Why Chromium Desktop Apps?](/#why-chromium-desktop-apps)
 - [Comparison with Blazor WASM](/#comparison-with-blazor-wasm)
@@ -10,7 +10,7 @@
 - [Alternative Desktop Solutions](/#alternative-modern-desktop-solutions)
 - [Desktop or Server Apps](/#desktop-or-server-deployments)
 
-### Gist Desktop Apps
+#### Gist Desktop Apps
 
 - [Overview](/gist-desktop-apps)
 - [Ultra Lightweight](/gist-desktop-apps#ultra-lightweight-desktop-apps)
@@ -22,17 +22,17 @@
 - [Cross Platform Support](/gist-desktop-apps#cross-platform-support)
 - [Always uses latest version](/gist-desktop-apps#always-uses-latest-version)
 
-### Development Model
+#### Development Model
 
 - [Overview](/development-model)
 - [Typed DTOs](/development-model#typed-dtos)
 - [AutoQuery Services](/development-model#autoquery-services)
 
-### Native Win32 API Interop
+#### Native Win32 API Interop
 
 - [Overview](/native-win32-interop)
 
-### Publishing Desktop Apps
+#### Publishing Desktop Apps
 
 - [Overview](/publishing-desktop-apps)
 - [Creating Windows Shortcuts](/publishing-desktop-apps#creating-windows-shortcuts)
