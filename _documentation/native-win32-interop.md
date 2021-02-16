@@ -48,6 +48,8 @@ below so they can be used within your App without needing to distribute them wit
 
 See [Win32 App](https://sharpscript.net/sharp-apps/win32) for more info & examples on Win32 integration.
 
+#### [app://win32](app://win32)
+
 ![](https://raw.githubusercontent.com/ServiceStack/docs/master/docs/images/release-notes/v5.9/win32.png)
 
 
