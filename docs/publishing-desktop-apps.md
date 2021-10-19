@@ -49,7 +49,7 @@ To view all installed Sharp Apps, run:
 $ app uninstall
 ```
 
-#### Creating Windows Shortcuts
+## Creating Windows Shortcuts
 
 The `app:` URL Scheme is a convenient way to launch Apps if you already have a **Browser** or Windows **File Explorer** already open where you can quickly launch Apps by typing `CTRL+L` shortcut to go to the Command Bar then type  `app://<name>` to launch your App.
 
@@ -62,7 +62,7 @@ $ app shortcut
 
 This will create a Windows Shortcut for the App which can be copied to the Desktop or pinned to the Taskbar for easy access.
 
-### Publishing Gist Apps
+## Publishing Gist Apps
 
 Publishing your App to a gist is our preferred option as you can use GitHub to host your App, built-in auto-updates with every each launch and if you publish to the Global App Registry users can download & install your App with a unique UX-friendly name like `app://vuedesktop`.
 
@@ -76,7 +76,7 @@ name vuedesktop
 CefConfig { width:1100, height:900 }
 ```
 
-#### Publish to the Global App Registry
+### Publish to the Global App Registry
 
 To maximize reach and accessibility of your App you can publish it to our [Global App Registry](https://gist.github.com/gistlyn/802daba52b6fe6e2ed1430348dc596cb) by including the following metadata about your App:
 
@@ -119,7 +119,7 @@ $ app open 48b2dcf9bccacab62ec9d8a073d5edb8
 
 When your App is published the first time, the created gist URL will be saved in a local `.publish` text file & used for subsequent App publishes.
 
-#### Local Aliases
+### Local Aliases
 
 If the Gist App isn't published to the Global Registry, users can create their own UX-friendly local alias with:
 
@@ -134,7 +134,7 @@ app://my-alias
 $ app open my-alias
 ```
 
-### Publishing to a GitHub Repo
+## Publishing to a GitHub Repo
 
 The same `/dist` folder that's published to Gists can also be published to a GitHub Repo like [github.com/mythz/vuedesktop](https://github.com/mythz/vuedesktop) which can be launched with the `<user>/<repo>` URL Scheme, e.g:
 
@@ -160,7 +160,7 @@ This will download this repo and create a **Vue Desktop** Windows Shortcut you c
 
 ![](https://raw.githubusercontent.com/ServiceStack/docs/master/docs/images/app/vue-desktop/vuedesktop-dist.png)
 
-### Publish to .zip
+## Publish to .zip
 
 The `/dist` folder can also be zipped and distributed that way, by running:
 
@@ -183,7 +183,7 @@ $ app shortcut
 
 That Users can copy to their Desktop or pin to their Taskbar for easy access.
 
-### Publishing self-encapsulated .zip
+## Publishing self-encapsulated .zip
 
 By having the `app` tool installed, users benefit from ultra small (e.g. **15kb**) downloads whose tiny footprints allows for auto-updating with each App launch so they have access to new features as soon as they're available. Users will also be able to update to the Chromium version used to run all their Sharp Desktop Apps by updating the `app` tool:
 
