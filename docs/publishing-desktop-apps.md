@@ -245,4 +245,3 @@ Here's an example of an app we have published to our servers:
 ```powershell
 powershell iwr files.sharpscript.net/VueDesktop/install.ps1 -useb | iex
 ```
-
