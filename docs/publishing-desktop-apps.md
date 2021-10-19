@@ -138,7 +138,7 @@ $ app open my-alias
 
 The same `/dist` folder that's published to Gists can also be published to a GitHub Repo like [github.com/mythz/vuedesktop](https://github.com/mythz/vuedesktop) which can be launched with the `<user>/<repo>` URL Scheme, e.g:
 
-### [app://mythz/vuedesktop](app://mythz/vuedesktop)
+<h3><a href="app://mythz/vuedesktop">app://mythz/vuedesktop</a></h3>
 
 ::: info
 Need to copy + paste URL in browser as GitHub markdown doesn't allow custom URL links
@@ -214,7 +214,7 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object Sy
 Here's a copy of `install.ps1` which downloads and extracts the App to the Users LocalApp Data and copies the Shortcut to the Desktop.
 Before publishing you'll need to update `$zipUrl` to point to the URL with your `*.zip`:
 
-```ps1
+```powershell
 $zipUrl  = "https://org.example/MyApp.zip"
 $appName = "MyApp"
 

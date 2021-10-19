@@ -46,17 +46,20 @@ Another unique feature of Gist Desktop Apps is being able to mix in multiple fil
 create custom App builds, e.g. the [SharpData](https://sharpscript.net/sharp-apps/sharpdata) generic RDBMS UI viewer
 utilizes this feature to copy & immediately open an embedded SQLite database for querying: 
 
- - [app://sharpdata?mix=northwind.sharpdata](app://sharpdata?mix=northwind.sharpdata)
- - [app://sharpdata?mix=chinook.sharpdata](app://sharpdata?mix=chinook.sharpdata)
+<h3><a href="app://sharpdata?mix=northwind.sharpdata">app://sharpdata?mix=northwind.sharpdata</a></h3>
+<h3><a href="app://sharpdata?mix=chinook.sharpdata">app://sharpdata?mix=chinook.sharpdata</a></h3>
 
 ## Launch from public or private GitHub Repos
 
 If preferred Desktop Apps can also be published & launched directly from your GitHub Repo which can be launched with `app://{user}/{repo}`, e.g`:
 
-- **[app://sharp-apps/redis](app://sharp-apps/redis)** - Redis Admin App 
-- **[app://sharp-apps/blog](app://sharp-apps/blog)** - SQLite powered Blog App 
-- **[app://sharp-apps/spirals](app://sharp-apps/spirals)** - SVG Spirals App
-- **[app://sharp-apps/rockwind](app://sharp-apps/rockwind)** - Multi Layout CMS + DB Admin UI Example
+
+<ul>
+    <li><b><a href="app://sharp-apps/redis">app://sharp-apps/redis</a></b> - Redis Admin App</li>
+    <li><b><a href="app://sharp-apps/blog">app://sharp-apps/blog</a></b> - SQLite powered Blog App</li>
+    <li><b><a href="app://sharp-apps/spirals">app://sharp-apps/spirals</a></b> - SVG Spirals App</li>
+    <li><b><a href="app://sharp-apps/rockwind">app://sharp-apps/rockwind</a></b> - Multi Layout CMS + DB Admin UI Example</li>
+</ul>
 
 ::: info Tip
 Can open by pasting above links in browsers URL as GitHub doesn't render links with custom URL Schemes
