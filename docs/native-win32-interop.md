@@ -1,5 +1,4 @@
 ---
-slug: native-win32-interop
 title: Native Win32 API Interop
 ---
 

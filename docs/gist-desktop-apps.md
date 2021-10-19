@@ -1,5 +1,4 @@
 ---
-slug: gist-desktop-apps
 title: Gist Desktop Apps
 ---
 

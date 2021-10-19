@@ -1,5 +1,4 @@
 ---
-slug: publishing-desktop-apps
 title: Publishing Desktop Apps
 ---
 

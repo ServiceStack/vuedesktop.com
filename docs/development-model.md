@@ -1,5 +1,4 @@
 ---
-slug: development-model
 title: Development Model
 ---
 
