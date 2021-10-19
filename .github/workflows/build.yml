@@ -21,13 +21,6 @@ jobs:
         run: |
           npm install
           npm run docs:build
-      - name: Copy release files for permalinks
-        run: |
-          cp docs/.vitepress/cp-rename.sh docs/.vitepress/dist/releases/cp-rename.sh
-          cd docs/.vitepress/dist/releases
-          chmod +x ./cp-rename.sh
-          ./cp-rename.sh
-          ls -l
       - name: Deploy to GitHub Pages
         run: |
           cd docs/.vitepress/dist
