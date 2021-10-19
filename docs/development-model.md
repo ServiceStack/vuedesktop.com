@@ -50,7 +50,7 @@ export class Counter extends Vue {
 Vue's integration with TypeScript is set to improve in Vue 3 which will be written in TypeScript
 :::
 
-### Typed DTOs
+## Typed DTOs
 
 The typing benefits of C# is also available when using TypeScript with 
 [type definitions](https://github.com/NetCoreTemplates/vue-desktop/tree/master/typings) available for all libraries
@@ -104,7 +104,7 @@ export class Home extends Vue {
 }
 ```
 
-### AutoQuery Services
+## AutoQuery Services
 
 Another major productivity boost for rapidly developing data-driven APIs is [AutoQuery RDBMS](https://docs.servicestack.net/autoquery-rdbms)
 where you can simply **create queryable APIs by just declaratively defining** which fields you want to query using any of the 
