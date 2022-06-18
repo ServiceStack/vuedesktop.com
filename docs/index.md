@@ -3,10 +3,47 @@ title: C# Vue Desktop App Project Template
 ---
 
 The [Vue Desktop Project Template](https://github.com/NetCoreTemplates/vue-desktop) lets you create 
-.NET 5 Vue Single Page Apps that can also be packaged & deployed as 
+.NET 6 Vue Web Apps that can also be packaged & deployed as 
 [Gist Desktop Apps](https://sharpscript.net/sharp-apps/gist-desktop-apps) which is 
 ideal for quickly & effortlessly creating & deploying small to medium .NET Core Windows Desktop Apps 
-packaged within a Chromium Web Vue UI within minutes!
+packaged within a Chromium Web Vue UI within minutes.
+
+## Example Vue Desktop App
+
+As all Vue Desktop Apps share the same [app](https://docs.servicestack.net/netcore-windows-desktop) dotnet tool they're extremely lightweight,
+e.g. this Vue Desktop Project packages into a **23kb** [GitHub Gist](https://gist.github.com/gistlyn/b9a693da72d7e2abbe86506fc17211ab), including custom .NET **.dll** and **favicon.png** which can be launched from the command line:
+
+```bash
+$ dotnet tool install -g app
+$ app open vuedesktop
+```
+
+Which will open a Windows Desktop App with an embedded Chromium WebView. The **app** dotnet tool also supports the `app:` custom URL Schemes allowing Desktop Apps to be launched from a browser:
+
+<h3><a href="app://vuedesktop">app://vuedesktop</a></h3>
+
+As Vue Desktop Apps are so lightweight they are downloaded each time they're run so they're always running the latest published version. 
+
+Larger Desktop Apps can also choose to skip downloading each time by running their locally cached version with the `app:` URL scheme:
+
+<h3><a href="app:vuedesktop">app:vuedesktop</a></h3>
+
+Or on the command line with `app run`, e.g:
+
+```bash
+$ app run vuedesktop
+```
+
+### Cross Platform
+
+The [x dotnet tool](https://docs.servicestack.net/dotnet-tool) is a lighter-weight cross-platform .NET tool as it runs the headless Web App in the OS default browser which with:
+
+```bash
+$ dotnet tool install -g x
+$ x open vuedesktop
+```
+
+## Get Started
 
 Create new project with [app dotnet tool](https://docs.servicestack.net/netcore-windows-desktop):
 
