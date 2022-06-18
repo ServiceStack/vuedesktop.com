@@ -11,7 +11,7 @@ packaged within a Chromium Web Vue UI within minutes.
 ## Example Vue Desktop App
 
 As all Vue Desktop Apps share the same [app](https://docs.servicestack.net/netcore-windows-desktop) dotnet tool they're extremely lightweight,
-e.g. this Vue Desktop Project packages into a **23kb** [GitHub Gist](https://gist.github.com/gistlyn/b9a693da72d7e2abbe86506fc17211ab), including custom .NET **.dll** and **favicon.png** which can be launched from the command line:
+e.g. this Vue Desktop Project packages into a **23kb** [GitHub Gist](https://gist.github.com/gistlyn/b9a693da72d7e2abbe86506fc17211ab), which can be launched from the command line:
 
 ```bash
 $ dotnet tool install -g app
