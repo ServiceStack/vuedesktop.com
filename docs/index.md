@@ -8,6 +8,13 @@ The [Vue Desktop Project Template](https://github.com/NetCoreTemplates/vue-deskt
 ideal for quickly & effortlessly creating & deploying small to medium .NET Core Windows Desktop Apps 
 packaged within a Chromium Web Vue UI within minutes.
 
+## .NET 10 Vue Identity Auth Tailwind Templates
+
+[ServiceStack Vue Templates and Components](https://docs.servicestack.net/vue/)
+
+- [Vue Tailwind Templates](https://docs.servicestack.net/templates/vue)
+- [Vue Component Library](https://docs.servicestack.net/vue/autoquerygrid)
+
 ## Example Vue Desktop App
 
 As all Vue Desktop Apps share the same [app](https://docs.servicestack.net/netcore-windows-desktop) dotnet tool they're extremely lightweight,
